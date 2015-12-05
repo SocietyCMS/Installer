@@ -2,6 +2,7 @@
   "name": "societycms/installer",
   "type": "composer-plugin",
   "license": "AGPL",
+  "version": "0.0.1",
   "authors": [
     {
       "name": "Ralph Huwiler",

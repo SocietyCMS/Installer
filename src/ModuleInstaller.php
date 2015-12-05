@@ -21,7 +21,7 @@ class ModuleInstaller extends LibraryInstaller
             );
         }
 
-        return 'modules/'.substr($package->getPrettyName(), 18);
+        return 'modules/'.ucfirst(substr($package->getPrettyName(), 18));
     }
 
     /**
