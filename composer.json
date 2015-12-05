@@ -1,0 +1,24 @@
+{
+  "name": "societycms/installer",
+  "type": "composer-plugin",
+  "license": "AGPL",
+  "authors": [
+    {
+      "name": "Ralph Huwiler",
+      "email": "ralph@huwiler.rocks"
+    }
+  ],
+  "autoload": {
+   "psr-4": {
+      "SocietyCMS\\Composer\\": "src/"
+    }
+  },
+  "extra": {
+    "class": [
+      "SocietyCMS\\Composer\\ModuleInstallerPlugin"
+    ]
+  },
+  "require": {
+    "composer-plugin-api": "^1.0"
+  }
+}

@@ -1,0 +1,1 @@
+# SocietyCMS Composer Installer Plugin
