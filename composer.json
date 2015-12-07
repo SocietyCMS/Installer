@@ -16,7 +16,8 @@
   },
   "extra": {
     "class": [
-      "SocietyCMS\\Composer\\ModuleInstallerPlugin"
+      "SocietyCMS\\Composer\\ModuleInstallerPlugin",
+      "SocietyCMS\\Composer\\ThemeInstallerPlugin"
     ]
   },
   "require": {
