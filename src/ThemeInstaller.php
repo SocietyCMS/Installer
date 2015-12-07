@@ -2,13 +2,13 @@
 
 namespace SocietyCMS\Composer;
 
-use Composer\Package\PackageInterface;
 use Composer\Installer\LibraryInstaller;
+use Composer\Package\PackageInterface;
 
 class ThemeInstaller extends LibraryInstaller
 {
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function getInstallPath(PackageInterface $package)
     {
@@ -25,7 +25,7 @@ class ThemeInstaller extends LibraryInstaller
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function supports($packageType)
     {
