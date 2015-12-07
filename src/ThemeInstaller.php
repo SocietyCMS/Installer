@@ -29,6 +29,6 @@ class ThemeInstaller extends LibraryInstaller
      */
     public function supports($packageType)
     {
-        return 'societycms/theme' === $packageType;
+        return 'societycms-theme' === $packageType;
     }
 }
