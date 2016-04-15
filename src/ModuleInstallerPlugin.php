@@ -6,8 +6,16 @@ use Composer\Composer;
 use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
 
+/**
+ * Class ModuleInstallerPlugin
+ * @package SocietyCMS\Composer
+ */
 class ModuleInstallerPlugin implements PluginInterface
 {
+    /**
+     * @param Composer $composer
+     * @param IOInterface $io
+     */
     public function activate(Composer $composer, IOInterface $io)
     {
         $installer = new ModuleInstaller($io, $composer);

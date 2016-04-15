@@ -5,8 +5,13 @@ namespace SocietyCMS\Composer;
 use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
 
+/**
+ * Class ModuleInstaller
+ * @package SocietyCMS\Composer
+ */
 class ModuleInstaller extends LibraryInstaller
 {
+
     /**
      * {@inheritdoc}
      */
