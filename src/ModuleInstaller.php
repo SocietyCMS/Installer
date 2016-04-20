@@ -6,12 +6,10 @@ use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
 
 /**
- * Class ModuleInstaller
- * @package SocietyCMS\Composer
+ * Class ModuleInstaller.
  */
 class ModuleInstaller extends LibraryInstaller
 {
-
     /**
      * {@inheritdoc}
      */

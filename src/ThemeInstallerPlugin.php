@@ -7,8 +7,7 @@ use Composer\IO\IOInterface;
 use Composer\Plugin\PluginInterface;
 
 /**
- * Class ThemeInstallerPlugin
- * @package SocietyCMS\Composer
+ * Class ThemeInstallerPlugin.
  */
 class ThemeInstallerPlugin implements PluginInterface
 {
